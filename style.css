@@ -40,6 +40,8 @@ body{
     width: 5;
     height: 600px;
     transform: translate( 450px, 0px);
+	border-style: solid;
+	border-color: #5D83AB;
 }
 
 
@@ -55,11 +57,11 @@ body{
 	margin: 30px;
 	transition: all 0.3s ease-in-out;
 }
-.flex_cards > .card > img {
-		width: 100%;
+.flex_cards > a > .card > img {
+		width: 300px;
 		height: 100%;
 }
-.flex_cards > .card > .overlay {
+.flex_cards > .card >  {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -70,7 +72,7 @@ body{
 		width: 230%;
 		opacity: 0;
 		background: rgb(255,255,255);
-		background: linear-gradient(215deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 55%, rgba(255,255,255,0) 56%);
+		background: linear-gradient(215deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 55%, rgba(255,255,255,0) 56%); 
 		transition: all 0.3s ease-in-out;
 }
 .flex_cards > .card:hover {
