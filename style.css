@@ -49,7 +49,7 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
-.flex_cards > .card {
+.flex_cards > a > .card {
 	position: relative;
 	top: 0;
 	width: 300px;
@@ -61,7 +61,7 @@ body{
 		width: 300px;
 		height: 100%;
 }
-.flex_cards > .card >  {
+.flex_cards > a > .card >  {
 		content: "";
 		position: absolute;
 		top: 0;
@@ -75,12 +75,14 @@ body{
 		background: linear-gradient(215deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 55%, rgba(255,255,255,0) 56%); 
 		transition: all 0.3s ease-in-out;
 }
-.flex_cards > .card:hover {
+.flex_cards > a > .card:hover {
 	top: -5px;
 	box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.7);
 	transform: perspective(600px) rotateX(3deg);
 }
-.flex_cards > .card:hover > .overlay {
+.flex_cards > a > .card:hover > .overlay {
 		width: 150%;
 		opacity: 0.4;
 }
+
+
