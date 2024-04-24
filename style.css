@@ -84,5 +84,32 @@ body{
 		width: 150%;
 		opacity: 0.4;
 }
-
-
+.card-pack {
+	border: none;
+	padding: 10px;
+	margin-bottom: 20px;
+  }
+  
+  .cardABT  {
+	border: none;
+	padding: 5px;
+	margin-bottom: 5px;
+  }
+  
+  .open-button {
+	border: none;
+	display: block;
+	margin-bottom: 0px;
+  }
+  #pauseButton {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #fff;
+	color: #000;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
