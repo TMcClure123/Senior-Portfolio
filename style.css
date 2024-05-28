@@ -44,62 +44,54 @@ body{
 	border-color: #5D83AB;
 }
 
-
 .flex_cards {
 	display: flex;
 	flex-wrap: wrap;
-}
-.flex_cards > a > .card {
-	position: relative;
-	top: 0;
-	width: 300px;
-	overflow: hidden;
-	margin: 30px;
-	transition: all 0.3s ease-in-out;
-}
-.flex_cards > a > .card > img {
-		width: 300px;
-		height: 100%;
-}
-.flex_cards > a > .card >  {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		display: block;
-		height: 100%;
-		width: 230%;
-		opacity: 0;
-		background: rgb(255,255,255);
-		background: linear-gradient(215deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 55%, rgba(255,255,255,0) 56%); 
-		transition: all 0.3s ease-in-out;
-}
-.flex_cards > a > .card:hover {
-	top: -5px;
-	box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.7);
-	transform: perspective(600px) rotateX(3deg);
-}
-.flex_cards > a > .card:hover > .overlay {
-		width: 150%;
-		opacity: 0.4;
-}
-.card-pack {
-	border: none;
-	padding: 10px;
-	margin-bottom: 20px;
+	justify-content: center;
   }
   
-  .cardABT  {
+  .flex_cards .card {
+	width: 150px; /* Adjust as necessary */
+	margin: 15px;
+	transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .flex_cards .card img {
+	width: 100%; /* Ensure images fit within the card */
+	height: auto;
+	display: block;
+  }
+  
+  .flex_cards .card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+.card-pack {
 	border: none;
-	padding: 5px;
-	margin-bottom: 5px;
+	padding: 0;
+	margin-bottom: 20px;
+	position: relative;
   }
   
   .open-button {
-	border: none;
 	display: block;
-	margin-bottom: 0px;
+	cursor: pointer;
+  }
+  
+  .hidden-cards {
+	display: none;
+	margin-top: 20px;
+  }
+  
+  .hidden-cards img {
+	width: 100px; /* Adjust as necessary */
+	height: auto;
+	margin: 10px;
+  }
+  
+  #toggleCards:checked + .hidden-cards {
+	display: flex;
+	flex-wrap: wrap;
   }
   #pauseButton {
 	position: fixed;

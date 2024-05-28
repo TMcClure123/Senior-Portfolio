@@ -19,20 +19,19 @@
     />
   </head>
   <body>
-    <div class="container-fluid p-0">
-      <div class="navcolor">
-        <p class="text-white text-end name">Tyler McClure</p>
-        <a href="index.html"> <img class="cardlogo" src="card-logo.png" /></a>
-      </div>
       <div class="card-pack" id="large-card-pack">
-        <button class="open-button p-0" onclick="openCardPack()"><img src="aboutme.png" width="300px" height="400px"></button>
-        <div class="cardABT" id="card1"></div>
-        <!-- Add more cards here if needed -->
+        <label for="toggleCards">
+          <img src="pastproject.png" class="open-button" alt="Open Card Pack">
+        </label>
+        <input type="checkbox" id="toggleCards" style="display: none;">
+        <div class="hidden-cards">
+          <img src="littlebirdcard.jpg" alt="Card 1">
+          <img src="card_image_2.jpg" alt="Card 2">
+          <img src="card_image_3.jpg" alt="Card 3">
+          <img src="card_image_4.jpg" alt="Card 4">
+        </div>
       </div>
       
-      <div id="small-card-packs">
-        <!-- Small card packs will be added here dynamically -->
-      </div>
       <audio id="backgroundAudio" autoplay loop>
         <source src="07 - Nuvema Town.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
