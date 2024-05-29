@@ -71,11 +71,17 @@ body{
 	padding: 0;
 	margin-bottom: 20px;
 	position: relative;
+  width: 400px;
+  height: 450px;
+ 
   }
   
   .open-button {
 	display: block;
 	cursor: pointer;
+  width: 400px;
+  height: 550px;
+  transform: translate(50px, 20px);
   }
   
   .hidden-cards {
@@ -84,7 +90,7 @@ body{
   }
   
   .hidden-cards img {
-	width: 100px; /* Adjust as necessary */
+	width: 150px; /* Adjust as necessary */
 	height: auto;
 	margin: 10px;
   }
