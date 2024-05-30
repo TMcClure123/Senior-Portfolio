@@ -51,7 +51,7 @@ body{
   }
   
   .flex_cards .card {
-	width: 150px; /* Adjust as necessary */
+	width: 350px; /* Adjust as necessary */
 	margin: 15px;
 	transition: transform 0.3s, box-shadow 0.3s;
   }
