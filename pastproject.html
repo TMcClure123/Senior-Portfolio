@@ -17,25 +17,34 @@
       href="https://fonts.googleapis.com/css2?family=Arsenal&family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="container-fluid p-0">
     <div class="navcolor">
       <p class="text-white text-end name">Tyler McClure</p>
       <a href="index.html"><img class="cardlogo" src="card-logo.png" /></a>
     </div>
 
-      <div class="card-pack" id="large-card-pack">
-        <label for="toggleCards">
-          <img src="pastproject.png" class="open-button" alt="Open Card Pack">
-        </label>
-        <input type="checkbox" id="toggleCards" style="display: none;">
-        <div class="hidden-cards">
-          <img src="littlebirdcard.jpg" alt="Card 1">
-          <img src="moviecard.jpg" alt="Card 2">
-          <img src="oldportfolio.jpg" alt="Card 3">
-          <img src="seniorreview.jpg" alt="Card 4">
-        </div>
+    <div class="card-pack" id="large-card-pack">
+      <label for="toggleCards">
+        <img src="pastproject.png" class="open-button" alt="Open Card Pack">
+      </label>
+      <input type="checkbox" id="toggleCards" style="display: none;">
+      <div class="hidden-cards">
+        <a href="https://tmcclure123.github.io/Toy-project/"><img src="littlebirdcard.jpg" alt="Card 1"></a>
+        <a href="https://tmcclure123.github.io/NJIT-3_StarterFiles/"><img src="moviecard.jpg" alt="Card 2"></a>
+        <a href="https://tmcclure123.github.io/port/index.html"><img src="oldportfolio.jpg" alt="Card 3"></a>
+        <a href="https://tmcclure123.github.io/Review-Project/"><img src="seniorreview.jpg" alt="Card 4"></a>
       </div>
+    </div>
+    <div class="bodybox">
+      <p class="bodytxt text-white p-3 .nanum-myeongjo-regular">My “Past Projects” card pack is like a treasure trove of my web design journey. 
+        Through this pack, I offer a window into my previous work and accomplishments. 
+        Each card showcases a different project, highlighting the skills and creativity 
+        I've poured into them. Whether you're browsing for ideas or seeking assurance of my expertise, 
+        the 'Past Projects' pack is your guided tour through my web design adventures.</p>
+    </div>
       
       <audio id="backgroundAudio" autoplay loop>
         <source src="02 - Driftveil City.mp3" type="audio/mpeg">
@@ -43,6 +52,6 @@
       </audio>
       <button id="pauseButton">Pause</button>
       <script src="script.js"></script>
-    </div>
-  </body>
+  </div>
+</body>
 </html>
