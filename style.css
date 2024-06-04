@@ -14,6 +14,18 @@ body{
     width: 100%;
     height: 200px;
 }
+.bodybox{
+  background-color: #5D83AB;
+  width: 500px;
+  height: 500px;
+  transform:translate(900px, -500px) ;
+}
+.instructions{
+  background-color: #5D83AB;
+  width: 400px;
+  height: 100px;
+  transform:translate(50px, 110px) ;
+}
 .bodycolor{
     background-color: #5D83AB;
     width: 650px !important;
@@ -34,12 +46,13 @@ body{
 }
 .bodytxt{
     font-size: 25px;
+    font-family: "Nanum Myeongjo", serif;
     
 }
 .mephoto{
-    width: 5;
+    width: 400px;
     height: 600px;
-    transform: translate( 450px, 0px);
+    transform: translate( 450px, -25px);
 	border-style: solid;
 	border-color: #5D83AB;
 }
@@ -87,6 +100,8 @@ body{
   .hidden-cards {
 	display: none;
 	margin-top: 20px;
+  overflow: none;
+  transform: translate( 500px, -500px)
   }
   
   .hidden-cards img {
@@ -110,4 +125,5 @@ body{
 	font-size: 16px;
 	cursor: pointer;
   }
+  
   
