@@ -18,7 +18,13 @@ body{
   background-color: #5D83AB;
   width: 500px;
   height: 500px;
-  transform:translate(900px, -400px) ;
+  transform:translate(900px, -500px) ;
+}
+.instructions{
+  background-color: #5D83AB;
+  width: 400px;
+  height: 100px;
+  transform:translate(50px, 110px) ;
 }
 .bodycolor{
     background-color: #5D83AB;
