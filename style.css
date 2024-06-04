@@ -18,7 +18,7 @@ body{
   background-color: #5D83AB;
   width: 500px;
   height: 500px;
-  transform:translate(900px, -500px) ;
+  transform:translate(1100px, -500px) ;
 }
 .instructions{
   background-color: #5D83AB;
@@ -52,7 +52,7 @@ body{
 .mephoto{
     width: 400px;
     height: 600px;
-    transform: translate( 450px, -25px);
+    transform: translate( 500px, -25px);
 	border-style: solid;
 	border-color: #5D83AB;
 }
